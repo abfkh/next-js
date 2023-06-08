@@ -21,7 +21,7 @@ const Contact = () => {
             rows="10"
             className={styles.input}
           ></textarea>
-          <button className={styles.btn}> Submit </button>
+          <button className={styles.btn}>Submit</button>
         </form>
       </div>
     </div>
