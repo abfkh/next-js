@@ -11,6 +11,11 @@
     margin-bottom: 20px;
 }
 
+.title {
+    color: #6C63FF;
+    margin-top: 20px;
+}
+
 .smallContainer {
     flex: 1;
 }

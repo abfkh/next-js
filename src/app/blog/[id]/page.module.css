@@ -8,6 +8,7 @@
 
 .container {
     padding-top: 50px;
+    color: #6C63FF;
 }
 
 
@@ -15,18 +16,15 @@
     margin-top: 20px;
 } */
 
-.test {
+.titles {
     color: red;
     background-color: #6C63FF;
 }
 
-.mainTitle {
-    margin-bottom: 200px
-}
 
-.h1 {
+/* .h1 {
     margin-bottom: 20px;
-}
+} */
 
 .smallContainer {
     flex: 1;

@@ -3,10 +3,11 @@
     justify-content: space-between;
 }
 
-.title1 {
+.titles {
     margin-top: 10px;
-    text-align: center;
-    color: #6C63FF;
+    margin-bottom: 50px;
+    /* text-align: center; */
+    /* color: #6C63FF; */
     /* background-color: #6C63FF; */
 }
 
