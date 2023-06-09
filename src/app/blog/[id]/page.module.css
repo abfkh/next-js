@@ -1,9 +1,5 @@
-.container {
-    margin-top: 90px;
-}
-
 .fullContainer {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     /* flex-direction: row; */
     gap: 40px;
@@ -39,4 +35,8 @@
     border: none;
     border-radius: 10px;
     width: max-content;
+}
+
+.desc {
+    margin-top: 40px;
 }
