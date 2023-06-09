@@ -5,7 +5,7 @@ import Link from "next/link";
 const Portfolio = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title1}>UX/UI works</h1>
+      <h1 className={styles.titleFiled}>UX/UI works</h1>
       <div className={styles.gallery}>
         <div className={styles.galleryContainer}>
           <Link href="portfolio/ux">
@@ -16,7 +16,7 @@ const Portfolio = () => {
               height={400}
             />
 
-            <h2 className={styles.h1}>Carify app - UX/UI Case Study</h2>
+            <h3 className={styles.h1}>Carify app - UX/UI Case Study</h3>
           </Link>
         </div>
         <div className={styles.galleryContainer}>
@@ -28,7 +28,7 @@ const Portfolio = () => {
               height={400}
             />
 
-            <h2 className={styles.h1}>Carify app - UX/UI Case Study</h2>
+            <h3 className={styles.h1}>Carify app - UX/UI Case Study</h3>
           </Link>
         </div>
         <div className={styles.galleryContainer}>
@@ -40,7 +40,7 @@ const Portfolio = () => {
               height={400}
             />
 
-            <h2 className={styles.h1}>Carify app - UX/UI Case Study</h2>
+            <h3 className={styles.h1}>Carify app - UX/UI Case Study</h3>
           </Link>
         </div>
         <div className={styles.galleryContainer}>
@@ -52,7 +52,7 @@ const Portfolio = () => {
               height={400}
             />
 
-            <h2 className={styles.h1}>Carify app - UX/UI Case Study</h2>
+            <h3 className={styles.h1}>Carify app - UX/UI Case Study</h3>
           </Link>
         </div>
       </div>

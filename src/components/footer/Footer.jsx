@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <div className={styles.container}>
-      <div>2023 abdo. All right reserved.</div>
+      <div className={styles.desc}>2023 abdo. All right reserved.</div>
       <div className={styles.social}>
         <Image
           src="/f.png"

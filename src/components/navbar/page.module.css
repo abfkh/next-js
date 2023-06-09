@@ -16,11 +16,22 @@
     gap: 20px;
 }
 
-.logout {
+
+/* .logout {
     padding: 10px;
     border: none;
     background-color: #6C63FF;
     cursor: pointer;
     border-radius: 5px;
     color: black;
+} */
+
+.logout {
+    padding: 15px;
+    cursor: pointer;
+    background-color: #2B2A4C;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: max-content;
 }

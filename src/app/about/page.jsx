@@ -42,6 +42,7 @@ const About = () => {
 
           <p className={styles.desc}>- we are pro</p>
           <p className={styles.desc}>- we are pro</p>
+
           <button className={styles.btn}>See Our Works</button>
         </div>
       </div>
