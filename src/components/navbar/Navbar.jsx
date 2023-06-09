@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import styles from "./page.module.css";
 
@@ -37,6 +37,9 @@ const links = [
   },
 ];
 const Navbar = () => {
+  // const [isLoading, setIsLoading] = React.useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+
   return (
     <div className={styles.container}>
       <Link rel="stylesheet" href="/" className={styles.logo}>
@@ -52,9 +55,10 @@ const Navbar = () => {
           className={styles.logout}
           onClick={() => {
             console.log("logged out");
+            setIsLoading(true);
           }}
         >
-          Logout
+          {isLoading ? "loading..." : "Logout"}
         </button>
       </div>
     </div>
