@@ -6,7 +6,7 @@ const Category = ({ params }) => {
   console.log(params);
   return (
     <div className={styles.container}>
-      <h1 className={styles.Title}>{params.category}</h1>
+      <h1 className={styles.test}>{params.category}</h1>
       <div className={styles.fullContainer}>
         <div className={styles.smallContainer}>
           <h1 className={styles.h1}>UX Case Study</h1>

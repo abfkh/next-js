@@ -3,9 +3,11 @@
     justify-content: space-between;
 }
 
-.title {
+.title1 {
     margin-top: 10px;
     text-align: center;
+    color: #6C63FF;
+    /* background-color: #6C63FF; */
 }
 
 .img {

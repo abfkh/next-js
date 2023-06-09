@@ -5,7 +5,7 @@ import Link from "next/link";
 const Portfolio = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Our Works</h1>
+      <h1 className={styles.title1}>UX/UI works</h1>
       <div className={styles.gallery}>
         <div className={styles.galleryContainer}>
           <Link href="portfolio/ux">

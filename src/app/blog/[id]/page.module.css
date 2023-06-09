@@ -1,9 +1,27 @@
 .fullContainer {
-    margin-top: 20px;
+    margin-top: 150px;
     display: flex;
     /* flex-direction: row; */
     gap: 40px;
     justify-content: center;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+
+/* .title {
+    margin-top: 20px;
+} */
+
+.test {
+    color: red;
+    background-color: #6C63FF;
+}
+
+.mainTitle {
+    margin-bottom: 200px
 }
 
 .h1 {
@@ -38,5 +56,6 @@
 }
 
 .desc {
-    margin-top: 40px;
+    margin-top: 100px;
+    gap: 20px;
 }
