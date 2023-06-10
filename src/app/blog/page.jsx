@@ -36,7 +36,7 @@ const Blog = () => {
           </p>
           <Link href="blog/article">
             <button className={styles.btn}>
-              {isLoading ? "loading..." : "read"}
+              {isLoading ? "loading..." : "read the full article"}
             </button>
           </Link>
         </div>
@@ -68,7 +68,7 @@ const Blog = () => {
           </p>
           <Link href="blog/article">
             <button className={styles.btn}>
-              {isLoading ? "loading..." : "read"}
+              {isLoading ? "loading..." : "read the full article"}
             </button>
           </Link>
         </div>
@@ -100,7 +100,7 @@ const Blog = () => {
           </p>
           <Link href="blog/article">
             <button className={styles.btn}>
-              {isLoading ? "loading..." : "read"}
+              {isLoading ? "loading..." : "read the full article"}
             </button>
           </Link>
         </div>
@@ -132,7 +132,7 @@ const Blog = () => {
           </p>
           <Link href="blog/article">
             <button className={styles.btn}>
-              {isLoading ? "loading..." : "read"}
+              {isLoading ? "loading..." : "read the full article"}
             </button>
           </Link>
         </div>
@@ -164,7 +164,7 @@ const Blog = () => {
           </p>
           <Link href="blog/article">
             <button className={styles.btn}>
-              {isLoading ? "loading..." : "read"}
+              {isLoading ? "loading..." : "read the full article"}
             </button>
           </Link>
         </div>
@@ -196,7 +196,7 @@ const Blog = () => {
           </p>
           <Link href="blog/article">
             <button className={styles.btn}>
-              {isLoading ? "loading..." : "read"}
+              {isLoading ? "loading..." : "read the full article"}
             </button>
           </Link>
         </div>
