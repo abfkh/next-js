@@ -1,0 +1,25 @@
+.containerToggle {
+    width: 42;
+    height: 24;
+    border: 1.5px solid #2B2A4C;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 12px;
+}
+
+.ballToggle {
+    width: 15px;
+    height: 15px;
+    /* background: rebeccapurple; */
+    background-color: #2B2A4C;
+    border-radius: 50%;
+    position: absolute;
+}
