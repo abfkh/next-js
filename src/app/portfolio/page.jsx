@@ -16,7 +16,7 @@ const Portfolio = () => {
               height={400}
             />
 
-            <h3 className={styles.h1}>Carify app - UX/UI Case Study</h3>
+            <h4 className={styles.h1}>Carify app - UX/UI Case Study</h4>
           </Link>
         </div>
         <div className={styles.galleryContainer}>
@@ -28,7 +28,7 @@ const Portfolio = () => {
               height={400}
             />
 
-            <h3 className={styles.h1}>Carify app - UX/UI Case Study</h3>
+            <h4 className={styles.h1}>Carify app - UX/UI Case Study</h4>
           </Link>
         </div>
         <div className={styles.galleryContainer}>
@@ -40,7 +40,7 @@ const Portfolio = () => {
               height={400}
             />
 
-            <h3 className={styles.h1}>Carify app - UX/UI Case Study</h3>
+            <h4 className={styles.h1}>Carify app - UX/UI Case Study</h4>
           </Link>
         </div>
         <div className={styles.galleryContainer}>
@@ -52,7 +52,7 @@ const Portfolio = () => {
               height={400}
             />
 
-            <h3 className={styles.h1}>Carify app - UX/UI Case Study</h3>
+            <h4 className={styles.h1}>Carify app - UX/UI Case Study</h4>
           </Link>
         </div>
       </div>
