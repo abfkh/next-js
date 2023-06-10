@@ -26,9 +26,10 @@ body {
     /* opacity: 0.5; */
 }
 
-::-webkit-scrollbar {
+
+/* ::-webkit-scrollbar {
     width: 0;
-}
+} */
 
 
 /* ::-webkit-scrollbar-thumb {
