@@ -33,9 +33,9 @@ const Blog = async () => {
             height={300}
           />
           <div className={styles.last}>
-            <Link href="blog/article" key={item.id}>
+            <Link href={`blog/${item._id}`} key={item.id}>
               <h1 className={styles.h1}>{item.title}</h1>
-              <p className={styles.p}>{item.body}</p>
+              <p className={styles.p}>{item.content}</p>
               <button className={styles.btn}>
                 Read Full article
                 {/* {isLoading ? "loading..." : "read the full article"} */}

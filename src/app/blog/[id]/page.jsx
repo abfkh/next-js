@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 async function getData(id) {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
+  const res = await fetch(`http://localhost:3000/api/posts/${id}`, {
     next: { cache: "no-store" },
   });
 
@@ -23,14 +23,14 @@ const BlogPost = async ({ params }) => {
         <div className={styles.smallContainer1}>
           <Image
             className={styles.img}
-            src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            src={data.img}
             width={500}
             height={300}
           />
         </div>
         <div className={styles.smallContainer}>
           <h1 className={styles.h1}>{data.title}</h1>
-          <p className={styles.p}>{data.body}</p>
+          <p className={styles.p}>{data.content}</p>
           {/* <button className={styles.btn}>Submit</button> */}
         </div>
       </div>
