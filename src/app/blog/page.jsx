@@ -4,6 +4,11 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Abdo Fuad blog page",
+  description: "description",
+};
+
 async function getData() {
   const res = await fetch("http://localhost:3000/api/posts", {
     next: { cache: "no-store" },

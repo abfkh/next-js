@@ -2,6 +2,12 @@ import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 import co from "public/m2.svg";
+
+export const metadata = {
+  title: "Abdo Fuad contact page",
+  description: "description",
+};
+
 const Contact = () => {
   return (
     <div className={styles.container}>
